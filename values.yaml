@@ -10,7 +10,7 @@ vllm:
   port: 8000
   maxNumSeqs: 256
   gpuMemoryUtilization: 0.90
-  powerCapW: 700  # stock (uncapped) baseline
+  powerCapW: 350
 
 resources:
   limits:
