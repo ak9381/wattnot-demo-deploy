@@ -5,7 +5,7 @@ set -euo pipefail
 # Applied settings from optimization runs
 
 # Power cap limit
-# sudo nvidia-smi -pl 400
+sudo nvidia-smi -pl 350
 
 exec vllm serve meta-models/Muse-Glimmer-30B \
     --host 0.0.0.0 \
